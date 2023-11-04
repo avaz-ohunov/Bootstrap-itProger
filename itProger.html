@@ -1,0 +1,85 @@
+
+<!-- bootstrap -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Bootstrap</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Подключение CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">	
+
+	<!-- Стили страницы -->
+	<link rel="stylesheet" type="text/css" href="main.css">
+
+	<!-- Подключение jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+	<!-- Подключение JS -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<!-- Шапка сайта -->
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<!-- Кнопка collapse -->
+			<div class="navbar-header">
+				<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">itProger</a>
+			</div>
+			<!-- Формы -->
+			<div class="navbar-collapse collapse">
+				<form class="navbar-form navbar-right">
+					<div class="form-group">
+						<input type="text" placeholder="Email" class="form-control">
+					</div>
+					<div class="form-group">
+						<input type="password" placeholder="Пароль" class="form-control">
+					</div>
+					<button type="submit" class="btn btn-success">Вход</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!-- Блок с основной информацией -->
+	<div class="jumbotron"> 
+		<div class="container"> 
+			<h1>Bootstrap</h1>
+			<p>Свободный набор инструментов для создания сайтов и веб-приложений. Включает в себя HTML- и CSS-шаблоны оформления для типографики, веб-форм, кнопок, меток, блоков навигации и прочих компонентов веб-интерфейса, включая JavaScript-расширения.</p> 
+			<p><a href="#" class="btn btn-primary" btn-lg>Узнать больше &raquo;</a></p>
+		</div>
+	</div>
+
+	<!-- Блоки с дополнительной информацией -->
+	<div class="containter">
+		<div class="row">
+			<div class="col-md-4" style="padding: 15px;">
+				<h2>HTML</h2>
+				<p maxlength="30">Стандартизированный язык разметки веб-страниц во Всемирной паутине. Код HTML интерпретируется браузерами; полученная в результате интерпретации страница отображается на экране монитора компьютера или мобильного устройства.</p>
+				<p><a href="#" class="btn btn-primary">Узнать больше  &raquo;</a></p>
+			</div>
+			<div class="col-md-4" style="padding: 15px;">
+				<h2>CSS</h2>
+				<p maxlength="30">Формальный язык описания внешнего вида документа, написанного с использованием языка разметки. Также может применяться к любым XML-документам, например, к SVG или XUL.</p>
+				<p><a href="#" class="btn btn-primary">Узнать больше  &raquo;</a></p>
+			</div>
+			<div class="col-md-4" style="padding: 15px;">
+				<h2>Python</h2>
+				<p maxlength="30">Высокоуровневый язык программирования общего назначения с динамической строгой типизацией и автоматическим управлением памятью, ориентированный на повышение производительности разработчика.</p>
+				<p><a href="#" class="btn btn-primary">Узнать больше  &raquo;</a></p>
+			</div>
+		</div>
+		<hr>
+		<footer>
+			<p>&copy;Все права защищены 2021</p>
+		</footer>
+	</div>
+</body>
+</html>
